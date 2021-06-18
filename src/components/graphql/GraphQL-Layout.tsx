@@ -9,6 +9,7 @@ const GraphQLLayout = ({ rendering }: StyleguideComponentProps): JSX.Element => 
 
   return (
     <div data-e2e-id="graphql-layout">
+      <p style={{color: "green", fontWeight:'bold'}}>Layout Generated @ {`${new Date().toLocaleString()}`}</p>
       {disconnectedMode && (
         <>
           <p>
