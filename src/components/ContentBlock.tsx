@@ -15,6 +15,7 @@ type ContentBlockProps = StyleguideComponentProps & {
  */
 const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => (
   <>
+    <p style={{color: "green", fontWeight:'bold'}}>ContentBlock Generated @ {`${new Date().toLocaleString()}`}</p>
     <Text tag="h2" className="display-4" field={fields.heading} />
 
     <RichText className="contentDescription" field={fields.content} />

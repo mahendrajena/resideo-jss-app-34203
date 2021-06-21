@@ -6,11 +6,13 @@ const GraphQLLayout = ({ rendering }: StyleguideComponentProps): JSX.Element => 
 
   const disconnectedMode =
     sitecoreContext.route && sitecoreContext.route.layoutId === 'available-in-connected-mode';
-
+  
   return (
     <div data-e2e-id="graphql-layout">
+      <p style={{color: "green", fontWeight:'bold'}}>Layout Generated @ {`${new Date().toLocaleString()}`}</p>
       {disconnectedMode && (
         <>
+        
           <p>
             This app is running in disconnected mode. GraphQL requires connected mode, headless
             connected mode, or integrated mode to work.
