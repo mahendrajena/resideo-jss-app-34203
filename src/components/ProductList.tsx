@@ -9,7 +9,7 @@ type ProductListProps = StyleguideComponentProps & {
 
 const ProductList = (props: ProductListProps): JSX.Element => (
   <div>
-    <h2>Product List Staging 2</h2>
+    <h2>Product List Prod 1</h2>
     <Text field={props.fields.heading} />
   </div>
 );
