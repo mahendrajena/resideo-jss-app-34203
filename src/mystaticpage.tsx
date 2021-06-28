@@ -1,20 +1,19 @@
 import Head from 'next/head';
 
 /**
- * Rendered in case if we have 404 error
+ * Rendered in case if we have mystaticpage error
  */
-const NotFound = (): JSX.Element => (
+const mystaticpage = (): JSX.Element => (
   <>
     <Head>
-      <title>404: NotFound</title>
+      <title>mystaticpage</title>
     </Head>
     <div style={{ padding: 10 }}>
-      <h1>Page not found</h1>
-      <p>This page does not exist.</p>
+      <h1>My static page</h1>
       <p>Page Generated @ {`${new Date().toLocaleString()}`}</p>
       <a href="/">Go to the Home page</a>
     </div>
   </>
 );
 
-export default NotFound;
+export default mystaticpage;
