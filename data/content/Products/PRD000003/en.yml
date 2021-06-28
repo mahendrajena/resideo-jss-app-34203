@@ -1,0 +1,26 @@
+id: PRD000003
+displayName: "PRD000003"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "THE ROUND SMART THERMOSTAT"
+  Category: "THERMOSTAT"
+  Price: 249
+  Image: "TH8732WF-c8-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P3-1.jpg|P3-2.jpg|P3-3.jpg"
+  DecContent1: "The Round Smart Thermostat"
+  DecContent2: "RCH9310WF5003/U"
+  DecContent3: "Imagine a thermostat that adapts to you."
+  DecContent4: "The Round Smart Thermostat measures humidity and temperature and adjusts to your comfort level automatically as you come and go. Blend comfort and efficiency to fit your lifestyle with this ENERGY STAR certified and intelligent smart home thermostat."
+  DecSelectAModel: "The Round Smart Thermostat"
+  DecSpec1Image: "P3-4.jpg"
+  DecSpec1Content1: "PRODUCT OVERVIEW"
+  DecSpec1Content2: "Intelligent comfort control is at your fingertips with The Round Smart Thermostat.                                                                                                                                                                                                   Now the temperature you set is always the temperature you feel thanks to dual temperature and humidity monitoring. View and adjust the humidity levels in your home remotely when you connect your WiFi thermostat to the Honeywell Home app.                                                                                                                                                                                                                 Smart and adaptive, The Round Smart Thermostat knows when you're home or away and automatically adjusts the temperature to maintain comfort and manage energy costs. It can even send notifications when it's time to change the air filter or perform other maintenance.                                                                                                                                                             Whether its a song belted in the shower or a whispered secret, your air goes beyond simply carrying oxygen to circulating memories. Heavy or light, hot or cold, always unique to your home, the air you feel is more than its temperature setting. Our Air products and services work with you and for you, supporting and creating more comfortable surroundings."
+  DecSpec2Image: "P3-5.png"
+  DecSpec2Content1: "Take It All With You"
+  DecSpec2Content2: "The Round Smart Thermostat is supported by our Honeywell Home App, which lets you control your Honeywell Home devices from anywhere, in one connected platform.            The app's one-touch dashboard brings heating and cooling control, water leak detection and security all together with activity alerts, smart home integration, improved geofencing and improved usability."
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+

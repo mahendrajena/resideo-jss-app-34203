@@ -1,0 +1,26 @@
+id: PRD000007
+displayName: "PRD000007"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "T5+ SMART THERMOSTAT"
+  Category: "THERMOSTAT"
+  Price: 149
+  Image: "RCHT8612WF-c4-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P7-1.jpg|P7-2.jpg|P7-3.jpg"
+  DecContent1: "T5+ Smart Thermostat with C-Wire Adapter"
+  DecContent2: "RCHT8612WF2005/U"
+  DecContent3: "Keeping life in tune"
+  DecContent4: "The T5+ Smart Thermostat gives you comfort knowing your home temperature is always to your liking. This app-controlled thermostat is easy to install and conveniently fits your lifestyle. Program it based on your schedule, or let it automatically adapt as plans change."
+  DecSelectAModel: "T5+ Smart Thermostat|T5+ Smart Thermostat with C-Wire Adapter"
+  DecSpec1Image: "P7-4.jpg"
+  DecSpec1Content1: "PRODUCT OVERVIEW"
+  DecSpec1Content2: "T5+ Smart Thermostat helps to make your home the most comfortable temperature when you arrive by using geofencing technology to keep track of your smart phone's location. By not heating or cooling your home until you're close to home, the smart home thermostat can save you money on energy costs while you're away.                                       Connect your WiFi thermostat to the Honeywell Home App, a platform designed to simplify your home comfort with a single app. Control from anywhere by smartphone or tablet, and receive push notifications to remind you to change your filter and warn you of extreme indoor temperatures.                                                                                                                             Whether its a song belted in the shower or a whispered secret, your air goes beyond simply carrying oxygen to circulating memories. Heavy or light, hot or cold, always unique to your home, the air you feel is more than its temperature setting. Our Air products and services work with you and for you, supporting and creating more comfortable surroundings."
+  DecSpec2Image: "P7-5.png"
+  DecSpec2Content1: "Take It All With You"
+  DecSpec2Content2: "The T5+ Smart Thermostat is supported by our Honeywell Home App, which lets you control your Honeywell Home devices from anywhere, in one connected platform.                   The app's one-touch dashboard brings heating and cooling control, water leak detection and security all together with activity alerts, smart home integration, improved geofencing and improved usability."
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+

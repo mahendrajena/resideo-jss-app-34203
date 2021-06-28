@@ -1,0 +1,26 @@
+id: PRD000011
+displayName: "PRD000011"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "The Round Non-Programmable Thermostat"
+  Category: "THERMOSTAT"
+  Price: 149.40
+  Image: "CT87N1001-c4-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P11-1.jpg|P11-2.jpg|P11-3.jpg"
+  DecContent1: "The Round mercury free thermostat manual changeover single stage"
+  DecContent2: "CT87N1001/U1"
+  DecContent3: "Classic Design, Easy Use"
+  DecContent4: "With its familiar circular design and simple twist action, The Round Non-Programmable Thermostat makes setting your ideal temperature quick and easy. Plus, the popular thermostat design fits perfectly into your home."
+  DecSelectAModel: "CT87K1004 The Round Heat Only Non-Prog Thermostat|The Round mercury free thermostat manual changeover single stage|CT87K1012/E1 Round Thermostat - White"
+  DecSpec1Image: "P11-4.jpg"
+  DecSpec1Content1: "PRODUCT OVERVIEW"
+  DecSpec1Content2: "Embrace simplicity with The Round Non-Programmable Thermostat. The reliable, readable scale makes setting the exact temperature easy  including a model with large, raised markings and clicks at every 2-degree change so you can see and hear the change.                                                                                                                                                                                             Plus, the popular, familiar design fits effortlessly into your home decor. Let a professional install The Round Non-Programmable Thermostat today to receive a 5-year warranty. "
+  DecSpec2Image: ""
+  DecSpec2Content1: ""
+  DecSpec2Content2: ""
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+

@@ -1,0 +1,26 @@
+id: PRD000010
+displayName: "PRD000010"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "D6 Pro WiFi Ductless Controller"
+  Category: "THERMOSTAT"
+  Price: 149.30
+  Image: "DC6000WF1001-c2-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P10-1.jpg|P10-2.jpg"
+  DecContent1: "D6 Pro WiFi Ductless Controller"
+  DecContent2: "DC6000WF1001/U"
+  DecContent3: "Keep Your Ductless System Simple"
+  DecContent4: "Forget complicated remote controls. Instead, use the D6 Pro WiFi Ductless Controller to quickly and intuitively choose a comfortable temperature. The controller acts like a thermostat, and it's easily installed with a wall mount or table stand."
+  DecSelectAModel: "D6 Pro WiFi Ductless Controller"
+  DecSpec1Image: "P10-4.jpg"
+  DecSpec1Content1: "PRODUCT OVERVIEW"
+  DecSpec1Content2: "Your ductless heating and cooling system is simple and efficient, so choosing a comfortable temperature should be the same. Replace your complicated remote control with the D6 Pro WiFi Ductless Controller. The device works like a thermostat, so you can intuitively set your preferred temperature.                                                                                                               The pro ductless split controller works with more than 800 different models of ductless mini-split systems from the top manufacturers. Setup is completed right on the device with only six parameters, then easily install with the included wall mount or table stand."
+  DecSpec2Image: "P10-5.png"
+  DecSpec2Content1: "Take It All With You"
+  DecSpec2Content2: "D6 Pro WiFi Ductless Controller is supported by our Honeywell Home App, which lets you control your Honeywell Home devices from anywhere, in one connected platform.        The app's one-touch dashboard brings heating and cooling control, water leak detection and security all together with activity alerts, smart home integration, improved geofencing and improved usability."
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+

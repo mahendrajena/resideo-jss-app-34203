@@ -1,0 +1,26 @@
+id: PRD000002
+displayName: "PRD000002"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "T1 Non-Programmable Thermostat"
+  Category: "THERMOSTAT"
+  Price: 179
+  Image: "TH1110D2009-c7-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P2-1.jpg|P2-2.jpg|P2-3.jpg"
+  DecContent1: "T1 Non-Programmable Thermostat"
+  DecContent2: "TH1110D2009/U"
+  DecContent3: "A temperature thats just right. Every night."
+  DecContent4: "T1 Pro non-Programmable thermostat for 24 Vac systems, single stage heat only or cool only systems."
+  DecSelectAModel: "T1 Pro Non-Programmable Thermostat - 24 Vac|T1 Non-Programmable Thermostat"
+  DecSpec1Image: "P2-4.jpg"
+  DecSpec1Content1: "PRODUCT OVERVIEW"
+  DecSpec1Content2: "The T1 Pro Non-Programmable Thermostat from Resideo is one of the best choices in terms of temperature control on the market.                                                                                                               Features include:                                                                                                                                                                                                                                                                                                                                        Simple installation                                                                                                                                                                                                                                                                                                                                    Push-button control                                                                                                                                                                                                                                                                                                                          Sleek aesthetic                                                                                                                                                                                                                                                                                                                                    Easy to read display                                                                                                                                                                                                                                                                                                                                               24 Vac systems; gas, oil, electric warm air; hot water coil; gas, oil, electric hydronic; or steam / gravity systems                                                                                                                                        Up to 1 heat or 1 cool conventional systems                                                                                                                                                                                                                                                                                                           5 to 90% RH, non-condensing operating humidity range (% RH)                                                                                                                                                                                                                                            Battery or hardwired power method                                                                                                                                                                                                                                                                                                    Includes thermostat, UWP mounting system, installation (J-box) adapter"
+  DecSpec2Image: ""
+  DecSpec2Content1: "Features                                                                                                                                                                                                                                                                                                                                                   T1 Non-Programmable Thermostat"
+  DecSpec2Content2: "Simple to Install, Push-Button Control                                                                                                                                                                                                                                                                                                        Easy to install and easy to read with a display size of 2.37 in., the T1 Pro Non-Programmable Thermostat makes temperature in your home simple. With push-button control and a sleek aesthetic, it will fit right into any decor."
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+

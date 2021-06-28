@@ -1,0 +1,26 @@
+id: PRD000006
+displayName: "PRD000006"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "Standard Non-Programmable Thermostat"
+  Category: "THERMOSTAT"
+  Price: 249.30
+  Image: "CT50K1002-c1-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P6-1.jpg|P6-2.jpg"
+  DecContent1: "Standard Heat Only Manual Thermostat"
+  DecContent2: "CT50K1002/E1"
+  DecContent3: "Worry-Free Heating and Cooling"
+  DecContent4: "This Standard Non-Programmable Thermostat is easy to install and even easier to use with its lever control and clearly marked modes. With worry-free operation, DIY installation and a one-year warranty, this thermostat provides peace of mind and simplified control."
+  DecSelectAModel: "Standard Heat Only Manual Thermostat"
+  DecSpec1Image: ""
+  DecSpec1Content1: ""
+  DecSpec1Content2: ""
+  DecSpec2Image: ""
+  DecSpec2Content1: ""
+  DecSpec2Content2: ""
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+

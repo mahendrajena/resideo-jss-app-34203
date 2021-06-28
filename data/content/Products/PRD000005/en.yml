@@ -1,0 +1,27 @@
+id: PRD000005
+displayName: "PRD000005"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "Wi-Fi Smart Thermostat"
+  Category: "THERMOSTAT"
+  Price: 249.20
+  Image: "RTH9580WF1005-c2-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P5-1.jpg|P5-2.jpg"
+  DecContent1: "Wi-Fi Smart Thermostat"
+  DecContent2: "RTH9580WF1005/U1"
+  DecContent3: "Imagine a thermostat that adapts to you."
+  DecContent4: "Customizable, connected and ENERGY STAR certified, Wi-Fi Smart Thermostats offer a simple setup and come in multiple colors to compliment your dcor.                                           This product has be discontinued.  Please see product RTH9585 for the current product."
+  DecSelectAModel: "Wi-Fi Smart Thermostat|"
+  DecSpec1Image: "P5-4.jpg"
+  DecSpec1Content1: "PRODUCT OVERVIEW"
+  DecSpec1Content2: "With a sleek aesthetic and large customizable touchscreen, your Wi-Fi Smart Thermostat will blend right in with your home dcor. Choose a color to accent the surroundings as easily as you adjust the temperature. This smart thermostat also connects to your existing Wi-Fi to give you control from your smart device via the Total Connect Comfort app. Check in from virtually anywhere and adjust or reschedule on the fly. With 7-day programming you can set a heating/cooling schedule that fits your lifestyle. Come home to your ideal temperature knowing you saved energy while you were away.
+            "
+  DecSpec2Image: "P5-5.png"
+  DecSpec2Content1: "Take It All With You"
+  DecSpec2Content2: "Gain control over their connected devices from anywhere at any time through the Total Connect Comfort App. You can monitor and adjust heating and cooling usage, stay on top of indoor humidity levels, and automatically receive email alerts related to safety, comfort and energy. The app works with a wide range of popular connected devices."
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+

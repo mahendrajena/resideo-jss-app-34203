@@ -1,0 +1,26 @@
+id: PRD000004
+displayName: "PRD000004"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "Prestige IAQ Thermostat with RedLINK"
+  Category: "THERMOSTAT"
+  Price: 249
+  Image: "YTHX9421R5101WW-c2-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P4-1.jpg"
+  DecContent1: "Prestige IAQ Kit with RedLINK, EIM and Sensors"
+  DecContent2: "YTHX9421R5101WW/U"
+  DecContent3: "Imagine a thermostat that adapts to you."
+  DecContent4: "One Thermostat. Advanced Whole-Home Comfort.                                                                                                                                                                                                                                                                                                         You're in control with the Honeywell Home Prestige IAQ 2.0 Thermostat. This device lets you control your entire home's comfort via temperature, humidification, air-conditioning and ventilation. RedLINK Technology lets you adjust these settings remotely.                                                   "
+  DecSelectAModel: "Prestige IAQ Kit with RedLINK, EIM and 4 Sensors|Prestige IAQ Kit with RedLINK, EIM, and 2 Sensors"
+  DecSpec1Image: "P4-4.png"
+  DecSpec1Content1: "PRODUCT OVERVIEW"
+  DecSpec1Content2: " The Prestige IAQ Thermostat with RedLINK features an effortless, 7-day programmable color touchscreen that provides control of temperature, humidification, dehumidification and ventilation. Its high-definition, full-color display is easy to read. The thermostat interviews you and uses your answers to program itself.                                     No need to work through complicated settings and instructions. Optional add-ons include the Portable Comfort Control that allows you to adjust room temperatures from anywhere in the home."
+  DecSpec2Image: "P4-5.png"
+  DecSpec2Content1: "Take It All With You"
+  DecSpec2Content2: "Gain control over their connected devices from anywhere at any time through the Total Connect Comfort App. You can monitor and adjust heating and cooling usage, stay on top of indoor humidity levels, and automatically receive email alerts related to safety, comfort and energy. The app works with a wide range of popular connected devices."
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+

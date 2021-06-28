@@ -1,0 +1,26 @@
+id: PRD000009
+displayName: "PRD000009"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "FocusPRO 6000 Programmable Wireless Thermostat"
+  Category: "THERMOSTAT"
+  Price: 149.20
+  Image: "YTH6320R1001-c2-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P9-1.jpg|P9-2.jpg|P9-3.jpg"
+  DecContent1: "Thermostat with Air Sensor and Equipment Module"
+  DecContent2: "YTH6320R1001/U"
+  DecContent3: "Control Your Home From Anywhere"
+  DecContent4: "Keep your home energy-efficient with the FocusPRO 6000 Programmable Wireless Thermostat. Perfect for any connected home, the device features wireless internet connectivity, so you can monitor and control your heating and cooling systems whenever you're away from home."
+  DecSelectAModel: "Thermostat with Air Sensor and Equipment Module|Thermostat with Wireless Adapter|FocusPRO 6000 with RedLINK Gateway Outdoor Kit|5-1-1 Programmable Wireless Thermostat"
+  DecSpec1Image: ""
+  DecSpec1Content1: ""
+  DecSpec1Content2: ""
+  DecSpec2Image: ""
+  DecSpec2Content1: ""
+  DecSpec2Content2: ""
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+

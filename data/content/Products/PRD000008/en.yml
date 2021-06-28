@@ -1,0 +1,26 @@
+id: PRD000008
+displayName: "PRD000008"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "VisionPRO 8000 WiFi Programmable Thermostat"
+  Category: "THERMOSTAT"
+  Price: 149
+  Image: "YTH8321WF-c2-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P8-1.jpg|P8-2.jpg"
+  DecContent1: "Fresh Air Ventilation Kit with 6 in. Damper"
+  DecContent2: "YTH8321WF1036/U"
+  DecContent3: "Clarity, Connectivity, and Control"
+  DecContent4: "With a large touchscreen display, the VisionPRO 8000 WiFi Programmable Thermostat makes it easy to control your home comfort. Program a schedule for every day of the week or control the temperature remotely anytime from the Total Connect Comfort app."
+  DecSelectAModel: "Fresh Air Ventilation Kit with 8 in. Damper|VisionPRO 8000 WiFi Programmable Thermostat|Fresh Air Ventilation Kit with 6 in. Damper"
+  DecSpec1Image: "P8-4.jpg"
+  DecSpec1Content1: "PRODUCT OVERVIEW"
+  DecSpec1Content2: "Connect to comfort and control with the VisionPRO 8000 WiFi Programmable Thermostat. Set a schedule for each day of the week and adjust it using the Total Connect Comfort app. When connected to the app, you can control the system remotely and receive alerts for maintenance or extreme temperatures. Select models feature a thermostat with humidifier control (TH8321) for fine-tuned comfort.                                                                                                                                                                                                                                   The large touchscreen display is easy to read and shows the  status of all equipment controlled by the thermostat. It can also present your dealer information if you need to reach out for service or questions."
+  DecSpec2Image: "P8-5.png"
+  DecSpec2Content1: "Take It All With You"
+  DecSpec2Content2: "Gain control over their connected devices from anywhere at any time through the Total Connect Comfort App. You can monitor and adjust heating and cooling usage, stay on top of indoor humidity levels, and automatically receive email alerts related to safety, comfort and energy. The app works with a wide range of popular connected devices."
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+

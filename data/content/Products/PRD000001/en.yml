@@ -1,0 +1,26 @@
+id: PRD000001
+displayName: "PRD000001"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "T9 SMART THERMOSTAT"
+  Category: "THERMOSTAT"
+  Price: 179.99
+  Image: "RCHT9610WFSW2003W-c7-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P1-1.jpg|P1-2.jpg|P1-3.jpg"
+  DecContent1: "T9 Smart Thermostat with Sensor"
+  DecContent2: "RCHT9610WFSW2003/U"
+  DecContent3: "A temperature thats just right. Every night."
+  DecContent4: "Sense the temperatures in the places that matter most with the T9 Smart Thermostat. Focus on the rooms you choose by adding Smart Room Sensors and setting a schedule or let the sensors respond to your lifestyle."
+  DecSelectAModel: "T9 Smart Thermostat with Sensor|T9 Smart Thermostat"
+  DecSpec1Image: "P1-4.jpg"
+  DecSpec1Content1: "PRODUCT OVERVIEW"
+  DecSpec1Content2: "The T9 Smart Thermostat works with Smart Room Sensors to help you adjust the temperature from anywhere and stay cozy in the rooms that matter.                                            Place sensors where you want to see each room's temperature and humidity. Use the multi-room display on the thermostat's touchscreen  or in the Honeywell Home app  to focus on rooms based on occupancy or a specific schedule you choose. When focusing on multiple rooms, the T9 works toward creating an average temperature, balancing the needs across the whole home.                                                                                                                                                                                                                                                                                Whether its a song belted in the shower or a whispered secret, your air goes beyond simply carrying oxygen to circulating memories. Heavy or light, hot or cold, always unique to your home, the air you feel is more than its temperature setting. Our Air products and services work with you and for you, supporting and creating more comfortable surroundings."
+  DecSpec2Image: "P1-5.png"
+  DecSpec2Content1: "Take It All With You"
+  DecSpec2Content2: "Manage your Honeywell Home devices in the easy-to-use app, making it simple to control home comfort, monitor usage and more  from anywhere.                                                        Worry less  get alerts if temperatures rise above or fall below your threshold as well as reminders to change your air filter. Plus, you dont always know your schedule week-to-week. With location-based home and away modes, your smart thermostat can respond to your lifestyle, automatically adjusting your temperature and passing the savings onto you."
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+

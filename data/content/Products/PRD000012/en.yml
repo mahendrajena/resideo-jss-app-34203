@@ -1,0 +1,26 @@
+id: PRD000012
+displayName: "PRD000012"
+# Template defines the available fields. See /sitecore/definitions/templates/ResideoProduct-Template.sitecore.js
+template: "ResideoProduct"
+fields:
+  Name: "WIFI SMART COLOR THERMOSTAT"
+  Category: "THERMOSTAT"
+  Price: 169
+  Image: "RTH9585WF1004-c10-6.jpg"
+  DecImage1: "HoneywellHome_Logo_Red_NP.png"
+  DecRollImages: "P12-1.jpg|P12-2.jpg|P12-3.jpg"
+  DecContent1: "WiFi Color Touchscreen Thermostat"
+  DecContent2: "RTH9585WF1004/U"
+  DecContent3: "Climate control tailored for you"
+  DecContent4: "Completely customize your WiFi Smart Color Thermostat to match your lifestyle and decor. The ENERGY STAR certified smart thermostat lets you choose the temperature, schedule, display color and the devices you use to control it all."
+  DecSelectAModel: "WiFi Color Touchscreen Thermostat"
+  DecSpec1Image: "P12-4.jpg"
+  DecSpec1Content1: "PRODUCT OVERVIEW"
+  DecSpec1Content2: "Customize your thermostat the way you personalize your home with the WiFi Smart Color Thermostat.                                                                                                                                                           The WiFi Smart Color Thermostat works seamlessly with Amazon Alexa and Google Home, as well as our mobile app, so you can control the temperature anywhere inside or outside your home. Smart response technology learns your schedule and temperature preferences to take the guesswork out of programming.                                                                        Plus, the full-color display is completely customizable to fit your unique style and match your home's decor. Enjoy versatility and performance with this smart home thermostat.                                                                                                                                                                                                                                                                                                                                                       Whether its a song belted in the shower or a whispered secret, your air goes beyond simply carrying oxygen to circulating memories. Heavy or light, hot or cold, always unique to your home, the air you feel is more than its temperature setting. Our Air products and services work with you and for you, supporting and creating more comfortable surroundings."
+  DecSpec2Image: "P12-5.png"
+  DecSpec2Content1: "Take It All With You"
+  DecSpec2Content2: "Gain further control over your home from anywhere, anytime when you access the WiFi Smart Color Thermostat through the Total Connect Comfort App.                                                    Monitor and adjust heating and cooling usage, stay on top of indoor humidity levels, even automatically receive email alerts related to safety, comfort and energy. The app is free, with no monthly monitoring fees and works with a wide range of popular connected devices."
+  RankWeight: "100"
+  IsDiscontinued: "False"
+  CreatedOn: "06/28/2021 18:42:54"
+
