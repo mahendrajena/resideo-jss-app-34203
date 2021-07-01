@@ -8,3 +8,10 @@ a[target='_blank']:after {
   are set to edit mode.
 */
 .scChromeData, .scpm { display: none !important; }
+
+.gray-text
+{
+	opacity:1;
+	color:rgb(156, 163, 175);
+  text-align:center;
+}
