@@ -42,6 +42,7 @@ const SitecorePage = ({CustomData,SCPageData}:SitecorePagePropsCustom): JSX.Elem
 
   return (
     <div>
+      <div className="gray-text">Page Generated at: {CustomData.RenderedAt}</div>
       <ComponentPropsContext value={SCPageData.componentProps}>
         <SitecoreContext<StyleguideSitecoreContextValue>
           componentFactory={componentFactory}
@@ -50,7 +51,7 @@ const SitecorePage = ({CustomData,SCPageData}:SitecorePagePropsCustom): JSX.Elem
           <Layout layoutData={SCPageData.layoutData} />
         </SitecoreContext>
       </ComponentPropsContext>
-      <div className="gray-text">Page Generated at: {CustomData.RenderedAt}</div>
+      
     </div>
   );
 };
