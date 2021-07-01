@@ -13,32 +13,45 @@ import { sitecorePagePropsFactory } from 'lib/page-props-factory';
 import { componentFactory } from 'temp/componentFactory';
 import { sitemapFetcher } from 'lib/sitemap-fetcher';
 
-const SitecorePage = ({ notFound, layoutData, componentProps }: SitecorePageProps): JSX.Element => {
+export type PageCustomData = {
+  RenderedAt: string;
+};
+
+export type SitecorePagePropsCustom = {
+  CustomData: PageCustomData;
+  SCPageData: SitecorePageProps;
+};
+
+
+const SitecorePage = ({CustomData,SCPageData}:SitecorePagePropsCustom): JSX.Element => {
   useEffect(() => {
     // Since Experience Editor does not support Fast Refresh need to refresh EE chromes after Fast Refresh finished
     handleExperienceEditorFastRefresh();
   }, []);
 
-  if (notFound || !layoutData) {
+  if (SCPageData.notFound || !SCPageData.layoutData) {
     // Shouldn't hit this (as long as 'notFound' is being returned below), but just to be safe
     return <NotFound />;
   }
 
   const context: StyleguideSitecoreContextValue = {
-    route: layoutData.sitecore.route,
-    itemId: layoutData.sitecore.route?.itemId,
-    ...layoutData.sitecore.context,
+    route: SCPageData.layoutData.sitecore.route,
+    itemId: SCPageData.layoutData.sitecore.route?.itemId,
+    ...SCPageData.layoutData.sitecore.context,
   };
 
   return (
-    <ComponentPropsContext value={componentProps}>
-      <SitecoreContext<StyleguideSitecoreContextValue>
-        componentFactory={componentFactory}
-        context={context}
-      >
-        <Layout layoutData={layoutData} />
-      </SitecoreContext>
-    </ComponentPropsContext>
+    <div>
+      <ComponentPropsContext value={SCPageData.componentProps}>
+        <SitecoreContext<StyleguideSitecoreContextValue>
+          componentFactory={componentFactory}
+          context={context}
+        >
+          <Layout layoutData={SCPageData.layoutData} />
+        </SitecoreContext>
+      </ComponentPropsContext>
+      <div className="gray-text">Page Generated at: {CustomData.RenderedAt}</div>
+    </div>
   );
 };
 
@@ -73,15 +86,21 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 // It may be called again, on a serverless function, if
 // revalidation (or fallback) is enabled and a new request comes in.
 export const getStaticProps: GetStaticProps = async (context) => {
-  const props = await sitecorePagePropsFactory.create(context);
+  const scData = await sitecorePagePropsFactory.create(context);
 
   return {
-    props,
+    props: { 
+      SCPageData:scData, 
+      CustomData:{
+        RenderedAt:new Date().toString(), 
+      }
+    },
+   //renderedAt: new Date().toISOString(),
     // Next.js will attempt to re-generate the page:
     // - When a request comes in
     // - At most once every 5 seconds
     revalidate: 5, // In seconds
-    notFound: props.notFound, // Returns custom 404 page with a status code of 404 when true
+    notFound: scData.notFound, // Returns custom 404 page with a status code of 404 when true
   };
 };
 
