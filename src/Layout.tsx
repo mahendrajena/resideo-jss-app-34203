@@ -39,10 +39,10 @@ const Navigation = () => {
           {t('Documentation')}
         </a>
         <Link href="/styleguide">
-          <a className="p-2 text-dark">Styleguide {t('Styleguide')}</a>
+          <a className="p-2 text-dark">{t('Styleguide')}</a>
         </Link>
         <Link href="/graphql">
-          <a className="p-2 text-dark">GraphQL {t('GraphQL')}</a>
+          <a className="p-2 text-dark">{t('GraphQL')}</a>
         </Link>
       </nav>
     </div>
